@@ -1,7 +1,29 @@
 aid: opencola
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opencola.png
 name: OpenCola
-description: OpenCola is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OpenCola is a non-profit organization building free, open-source, local-first
+  software as an alternative to corporate social media and cloud platforms. Its
+  application keeps a user's data on their own device by default, offering
+  personal search, offline content archives, multiple personas, trust-based
+  connections via tokens, information-centric collaboration, and community
+  moderation. The project is grounded in four principles: transparency,
+  accountability, personal control, and security (cryptographic verification).
+  It is a revival of the original OpenCola (1999), and the current release is a
+  local desktop application rather than a hosted service. OpenCola publishes no
+  public web API, developer portal, SDK, or OpenAPI at this time; this profile
+  captures its identity and open-source posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/opencola/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Open Source
+- Decentralization
+- Local-First
+- Personal Data
+- Privacy
+- Social Software
+- Non-Profit
 apis: []
+common:
+- type: DomainSecurity
+  url: security/opencola-domain-security.yml
+- type: Website
+  url: https://opencola.io/
+- type: GitHubOrganization
+  url: https://github.com/opencola
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
