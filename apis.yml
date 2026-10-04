@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Open-Source
+- Open Source
 - Decentralization
 - Local-First
 - Personal Data
@@ -63,6 +63,7 @@ tags_raw:
 - Privacy
 - Social Software
 - Non-Profit
+- Open-Source
 apis: []
 common:
 - type: DomainSecurity
